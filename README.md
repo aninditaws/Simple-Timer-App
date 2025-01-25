@@ -1,11 +1,51 @@
-# Sample Snack app
+# Focus Timer
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+Focus Timer is a React Native application that helps users manage their time effectively by allowing them to set and control a countdown timer. The app features a sleek design, customizable inputs, and smooth navigation.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## Features
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+- Set a timer by entering minutes and seconds.
+- Start, pause, and reset the timer with intuitive controls.
+- Navigate between timer and input screens seamlessly.
+- Custom fonts for an enhanced UI experience.
+- Background image for a visually appealing interface.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+## Installation
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+Follow these steps to set up and run the app:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/aninditaws/Simple-Timer-App
+  ```
+2. Install the dependencies:
+  ```bash
+  npm install
+  ```
+3. Start the app:
+  ```bash
+  npm start
+  ```
+4. Use Expo Go (or your preferred emulator) to preview the app on your device.
+
+## Usage
+1. Input the desired minutes and seconds in the input fields on the main screen.
+2. Press the "Start" button to begin the countdown.
+3. Use the controls to pause, reset, or return to the input screen.
+
+## Technologies Used
+- React Native: Framework for building native mobile applications.
+- Expo: Toolchain for developing React Native apps with ease.
+- Custom Fonts: Inter-Regular and Inter-Bold for enhanced typography.
+- Icons: Ionicons and MaterialIcons for intuitive UI elements.
+
+## Contributing
+Contributions are welcome! If you would like to contribute to this project, please follow these steps:
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature/your-feature-name).
+3. Commit your changes (git commit -m 'Add some feature').
+4. Push to the branch (git push origin feature/your-feature-name).
+5. Open a pull request.
+
+## Author
+Developed by Anindita Widya Santoso (18222128)
